@@ -9,7 +9,8 @@ using namespace std;
 
 
 void Jeu::jouer(){
-	
+	//google::InitGoogleLogging("log_chifoumi");
+	//google::SetLogDestination(google::GLOG_INFO, "log_chifoumi");
 	while(_jeuEnCours){
 		choix _choice=getJoueurChoice();
 		displayRes(_choice);
